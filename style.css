@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:ital@0;1&family=Roboto&display=swap');
+:root{
+  --cor1:#1d203e70;
+  --cor2:#aa9acefd;
+  --cor3:#1d203e70;
+ --cor4:#00000021;
+  --font2:'Lato', sans-serif;
+}
+body{
+background-image: linear-gradient(var(--cor4),var(--cor2));
+   background-repeat: no-repeat;
+  background-size:cover;
+   height: 100vh;
+   width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+main{
+    background-color: var(--cor3);
+    width: 70%;
+    max-width: 350px;
+    padding: 100px 0;
+    border-radius: 20px;
+display: inline-block;
+
+}
+
+input{
+color: rgba(255, 255, 255, 0.747);
+padding: 17px;
+outline:none ;
+font-size: 2rem;
+font-family: var(--font2);
+border-radius: 25%;
+border: none;
+cursor:pointer;
+}
+.textMain{
+    width:55%;
+    height: 26px;
+    background-color: #00000021;
+   border-radius: 0%;
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+
+.textBtnClear{
+width:5%;
+
+background-color:#f1b431 ;
+}
+.num{width: 20%;
+    height: 67px;
+    margin-bottom: 2px;
+ background-color: rgba(137, 84, 185, 0.705);
+}
+.maincolor{
+    background-color: #1d203e8e;
+}
+.Total{
+    background-color:rgb(131, 47, 209);
+}

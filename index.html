@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    
+        <form action="" name="calculator">
+            <input type="text" class="textMain" name="text1" disabled>
+            <input type="text" class="textBtnClear" name="clear" value="c" onclick="location.reload(text1)" > <br>
+
+            <input type="button" class="num maincolor" name="btn7" value="7" onclick="displaynum(btn7.value)">
+            <input type="button" class="num maincolor" name="btn8" value="8" onclick="displaynum(btn8.value)">
+            <input type="button" class="num maincolor" name="btn9" value="9" onclick="displaynum(btn9.value)">
+            <input type="button" class="num subtraction" name="subtraction" value="-" onclick="displaynum(subtraction.value)"> <br>
+
+            <input type="button" class="num maincolor" name="btn4" value="4" onclick="displaynum(btn4.value)">
+            <input type="button" class="num maincolor" name="btn5" value="5" onclick="displaynum(btn5.value)">
+            <input type="button" class="num maincolor" name="btn6" value="6" onclick="displaynum(btn6.value)">
+            <input type="button" class="num add" name="add" value="+" onclick="displaynum(add.value)"> <br>
+
+            <input type="button" class="num maincolor" name="btn1" value="1" onclick="displaynum(btn1.value)">
+            <input type="button" class="num maincolor" name="btn2" value="2" onclick="displaynum(btn2.value)">
+            <input type="button" class="num maincolor" name="btn3" value="3" onclick="displaynum(btn3.value)">
+            <input type="button" class="num multiplication" name="multiplication" value="*" onclick="displaynum(multiplication.value)"> <br>
+
+            <input type="button" class="num maincolor" name="comma" value="," onclick="displaynum(comma.value)">
+            <input type="button" class="num maincolor" name="btn0" value="0" onclick="displaynum(btn0.value)">
+            <input type="button" class="num division" name="division" value="/" onclick="displaynum(division.value)">
+            <input type="button" class="num Total" name="total" id="total" value="=" onclick="text1.value=eval(text1.value)"> <br>
+
+
+        </form>
+    </main>
+   
+   <script src="script.js"></script> 
+</body>
+</html>
